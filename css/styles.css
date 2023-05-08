@@ -1,0 +1,114 @@
+/*Cores usadas no site
+
+#fc552c - laranja
+#212529 - bg-dark 
+
+*/
+html,
+body {
+  height: 100%;
+}
+
+body{
+    background-color: #212529;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#titulo{
+    text-align: center;
+    color: #fff;
+}
+
+
+#desc-paginaConst{
+    text-align: center;
+    color: #fff;
+}
+
+#btn-inicial{  
+    background-color: #fc552c;
+    border: 0; 
+    color: #fff; 
+    border: solid 1px #fff; 
+    transition-duration: 0.4s;
+    cursor: pointer;  
+}
+
+#btn-inicial:hover{
+    background-color: #fff;    
+    color: #fc552c;   
+    border: solid 1px #fc552c;
+    cursor: pointer; 
+}
+
+/* PAGINA DE LOGIN*/
+
+#body-login{
+    background-color: #212529;
+}
+
+#title-login{
+    color: #fff;
+}
+
+#btn-login{
+    background-color: #fc552c;
+    border: 0; 
+    color: #fff; 
+    border: solid 1px #fff; 
+    transition-duration: 0.4s;
+    cursor: pointer; 
+}
+
+#btn-login:hover{
+    background-color: #fff;    
+    color: #fc552c;   
+    border: solid 1px #fc552c;    
+    cursor: pointer; 
+}
+
+span{
+    color: #fff;
+}
+
+#cadastrar{
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer; 
+  }
+
+#rodape-login{
+    color: #fff;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+  
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  @media (min-width: 992px) {
+    .rounded-lg-3 { border-radius: .3rem; }
+  }
